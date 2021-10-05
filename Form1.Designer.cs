@@ -1,4 +1,4 @@
-﻿namespace Calculator github.com/yusuf-xq
+﻿namespace Calculator
 {
     partial class Form1
     {
@@ -250,7 +250,7 @@
             this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Calculator github.com/yusuf-xq";
+            this.Text = "Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
