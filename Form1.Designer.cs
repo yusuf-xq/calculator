@@ -1,4 +1,4 @@
-﻿namespace Calculator
+﻿namespace Calculator github.com/yusuf-xq
 {
     partial class Form1
     {
