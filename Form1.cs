@@ -29,7 +29,7 @@ namespace Calculator
 
         private void button15_Click(object sender, EventArgs e)
         {
-            // numbers button and point
+            
             if (textBox_Result.Text == "0" || PerformedOp)
                 textBox_Result.Clear();
 
@@ -52,7 +52,7 @@ namespace Calculator
 
         private void Operator_click_Event(object sender, EventArgs e)
         {
-            // +, -, *, / operators
+            
             Button button = (Button)sender;
 
             if (Result_Value != 0)
@@ -74,13 +74,13 @@ namespace Calculator
 
         private void button5_Click(object sender, EventArgs e)
         {
-            //CLEAR ENTRY BUTTON
+            
             textBox_Result.Text = "0";
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            //CLEAR BUTTON
+            
             textBox_Result.Text = "0";
             Result_Value = 0;
             label_Show_Op.Text = " ";
@@ -88,7 +88,7 @@ namespace Calculator
 
         private void button16_Click(object sender, EventArgs e)
         {
-            // EQUALS BUTTON
+           
             switch (Operator_Performed)
             {
                 case "+":
